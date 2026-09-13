@@ -1,0 +1,301 @@
+id_usuario,plano,horas_assistidas,score_satisfacao,cancelou_assinatura,dispositivo_principal,mes_referencia
+1,Padrão,38.0,8,Não,Tablet,2024-06
+2,Padrão,37.8,7,Não,Smart TV,2024-06
+3,Básico,25.1,9,Não,Smartphone,2024-06
+4,Básico,7.4,9,Não,Smartphone,2024-06
+5,Básico,23.2,9,Não,Smartphone,2024-06
+6,Básico,38.6,5,Não,Smartphone,2024-06
+7,Premium,50.7,10,Não,Smart TV,2024-06
+8,Padrão,39.9,7,Não,Smartphone,2024-06
+9,Padrão,54.1,8,Não,Tablet,2024-06
+10,Padrão,63.5,6,Não,Smart TV,2024-06
+11,Básico,2.0,9,Sim,Smartphone,2024-06
+12,Premium,55.4,9,Não,Tablet,2024-06
+13,Padrão,28.3,6,Não,Smartphone,2024-06
+14,Premium,51.6,10,Não,Smartphone,2024-06
+15,Padrão,55.5,6,Não,Smartphone,2024-06
+16,Padrão,40.2,6,Não,Smart TV,2024-06
+17,Padrão,39.0,8,Não,Smartphone,2024-06
+18,Básico,13.8,4,Sim,Smartphone,2024-06
+19,Padrão,55.1,6,Sim,Smartphone,2024-06
+20,Premium,52.3,8,Não,Smart TV,2024-06
+21,Básico,21.8,6,Não,Smart TV,2024-06
+22,Básico,29.7,9,Não,Tablet,2024-06
+23,Premium,55.4,7,Não,Tablet,2024-06
+24,Básico,27.1,8,Não,Smart TV,2024-06
+25,Básico,22.7,4,Não,Smart TV,2024-06
+26,Premium,57.4,7,Não,Notebook,2024-06
+27,Premium,44.7,10,Não,Smart TV,2024-06
+28,Padrão,36.9,4,Sim,Smart TV,2024-06
+29,Padrão,69.1,8,Não,Tablet,2024-06
+30,Padrão,34.9,5,Não,Smart TV,2024-06
+31,Básico,18.9,4,Sim,Smart TV,2024-06
+32,Premium,61.9,5,Não,Smart TV,2024-06
+33,Básico,25.7,6,Não,Smartphone,2024-06
+34,Padrão,28.2,4,Não,Tablet,2024-06
+35,Premium,52.1,7,Não,Smart TV,2024-06
+36,Básico,15.4,9,Não,Smart TV,2024-06
+37,Premium,59.2,9,Não,Smart TV,2024-06
+38,Premium,41.7,8,Não,Smart TV,2024-06
+39,Padrão,44.1,6,Não,Smart TV,2024-06
+40,Básico,19.9,6,Não,Smartphone,2024-06
+41,Padrão,40.9,9,Não,Smartphone,2024-06
+42,Básico,23.1,4,Não,Notebook,2024-06
+43,Padrão,40.4,10,Não,Smartphone,2024-06
+44,Premium,43.8,8,Não,Smart TV,2024-06
+45,Premium,69.8,7,Não,Smartphone,2024-06
+46,Básico,28.1,4,Sim,Tablet,2024-06
+47,Padrão,27.3,8,Não,Smart TV,2024-06
+48,Premium,49.7,8,Não,Smartphone,2024-06
+49,Básico,2.0,5,Não,Smart TV,2024-06
+50,Premium,56.5,5,Não,Notebook,2024-06
+51,Básico,21.7,9,Não,Smartphone,2024-06
+52,Padrão,44.7,9,Não,Smartphone,2024-06
+53,Padrão,2.0,8,Não,Notebook,2024-06
+54,Premium,24.8,5,Não,Smart TV,2024-06
+55,Básico,36.2,7,Não,Smartphone,2024-06
+56,Básico,35.5,7,Não,Smartphone,2024-06
+57,Premium,61.7,7,Não,Smartphone,2024-06
+58,Premium,41.5,9,Não,Smartphone,2024-06
+59,Básico,22.7,7,Não,Notebook,2024-06
+60,Premium,82.1,9,Não,Notebook,2024-06
+61,Básico,27.0,7,Não,Smart TV,2024-06
+62,Básico,20.6,3,Não,Smartphone,2024-06
+63,Premium,52.9,6,Não,Notebook,2024-06
+64,Premium,40.2,5,Não,Notebook,2024-06
+65,Padrão,42.7,8,Não,Notebook,2024-06
+66,Básico,54.1,4,Não,Smartphone,2024-06
+67,Padrão,31.4,5,Não,Smartphone,2024-06
+68,Padrão,36.0,6,Não,Tablet,2024-06
+69,Premium,66.7,6,Não,Smart TV,2024-06
+70,Básico,6.8,5,Não,Smart TV,2024-06
+71,Padrão,47.5,10,Não,Tablet,2024-06
+72,Premium,60.1,6,Não,Smartphone,2024-06
+73,Básico,9.6,7,Não,Tablet,2024-06
+74,Padrão,40.5,6,Sim,Smart TV,2024-06
+75,Padrão,61.4,10,Não,Smartphone,2024-06
+76,Padrão,33.9,10,Não,Tablet,2024-06
+77,Básico,6.9,8,Não,Tablet,2024-06
+78,Padrão,49.1,5,Não,Smartphone,2024-06
+79,Premium,48.6,7,Não,Smart TV,2024-06
+80,Premium,72.8,7,Não,Smart TV,2024-06
+81,Padrão,36.1,4,Não,Smart TV,2024-06
+82,Padrão,55.5,8,Não,Tablet,2024-06
+83,Premium,58.1,8,Não,Smart TV,2024-06
+84,Básico,15.9,7,Não,Smartphone,2024-06
+85,Padrão,43.3,8,Sim,Smartphone,2024-06
+86,Padrão,37.2,6,Não,Smartphone,2024-06
+87,Básico,10.9,4,Não,Notebook,2024-06
+88,Básico,23.3,5,Não,Tablet,2024-06
+89,Premium,45.1,7,Não,Smartphone,2024-06
+90,Básico,5.6,4,Não,Smartphone,2024-06
+91,Padrão,41.7,5,Não,Smartphone,2024-06
+92,Padrão,40.5,10,Não,Smart TV,2024-06
+93,Premium,78.5,10,Sim,Notebook,2024-06
+94,Básico,12.0,6,Não,Smart TV,2024-06
+95,Básico,24.9,10,Não,Smartphone,2024-06
+96,Premium,47.9,9,Não,Smart TV,2024-06
+97,Premium,70.2,7,Não,Tablet,2024-06
+98,Padrão,49.5,6,Não,Smart TV,2024-06
+99,Padrão,43.9,7,Não,Smartphone,2024-06
+100,Básico,48.5,6,Não,Smart TV,2024-06
+101,Padrão,56.6,10,Não,Smartphone,2024-06
+102,Premium,53.9,7,Não,Smart TV,2024-06
+103,Premium,67.7,8,Não,Smart TV,2024-06
+104,Premium,56.1,6,Não,Smart TV,2024-06
+105,Premium,60.9,9,Não,Smart TV,2024-06
+106,Básico,12.3,6,Não,Tablet,2024-06
+107,Padrão,39.5,9,Não,Notebook,2024-06
+108,Padrão,60.2,4,Sim,Smart TV,2024-06
+109,Padrão,31.1,5,Não,Smartphone,2024-06
+110,Básico,5.4,5,Não,Tablet,2024-06
+111,Padrão,35.1,4,Sim,Smartphone,2024-06
+112,Premium,59.0,4,Sim,Smartphone,2024-06
+113,Premium,61.1,5,Não,Smart TV,2024-06
+114,Básico,16.9,8,Não,Smartphone,2024-06
+115,Premium,53.8,8,Não,Smart TV,2024-06
+116,Premium,81.0,10,Não,Smart TV,2024-06
+117,Básico,32.3,4,Não,Smartphone,2024-06
+118,Básico,25.3,7,Não,Smartphone,2024-06
+119,Básico,20.3,6,Não,Smartphone,2024-06
+120,Básico,2.8,5,Não,Notebook,2024-06
+121,Premium,83.9,5,Não,Smart TV,2024-06
+122,Premium,52.1,7,Não,Smart TV,2024-06
+123,Premium,54.4,8,Não,Tablet,2024-06
+124,Premium,80.9,8,Sim,Notebook,2024-06
+125,Padrão,49.3,9,Não,Smartphone,2024-06
+126,Básico,31.1,4,Não,Notebook,2024-06
+127,Básico,6.4,7,Não,Smartphone,2024-06
+128,Premium,64.3,9,Não,Smart TV,2024-06
+129,Básico,16.4,6,Não,Tablet,2024-06
+130,Padrão,66.1,5,Não,Smart TV,2024-06
+131,Básico,26.5,7,Não,Tablet,2024-06
+132,Premium,70.0,8,Não,Smartphone,2024-06
+133,Básico,25.6,5,Não,Smart TV,2024-06
+134,Básico,41.4,4,Sim,Tablet,2024-06
+135,Padrão,43.1,8,Não,Smart TV,2024-06
+136,Premium,44.8,7,Não,Smart TV,2024-06
+137,Premium,32.7,9,Não,Smart TV,2024-06
+138,Básico,26.8,6,Não,Smart TV,2024-06
+139,Padrão,29.7,5,Sim,Smartphone,2024-06
+140,Básico,49.5,5,Não,Smartphone,2024-06
+141,Premium,73.0,10,Não,Smart TV,2024-06
+142,Padrão,42.0,5,Não,Smartphone,2024-06
+143,Premium,73.4,4,Sim,Smartphone,2024-06
+144,Padrão,32.1,6,Não,Notebook,2024-06
+145,Padrão,6.5,7,Não,Smartphone,2024-06
+146,Premium,52.1,8,Não,Smart TV,2024-06
+147,Básico,28.9,7,Não,Smartphone,2024-06
+148,Básico,2.3,5,Não,Tablet,2024-06
+149,Padrão,38.6,7,Não,Notebook,2024-06
+150,Padrão,48.3,9,Sim,Smartphone,2024-06
+151,Básico,10.5,7,Não,Smart TV,2024-06
+152,Premium,61.8,5,Não,Smartphone,2024-06
+153,Padrão,48.3,3,Não,Smartphone,2024-06
+154,Padrão,37.5,6,Não,Smart TV,2024-06
+155,Básico,50.8,4,Não,Tablet,2024-06
+156,Básico,13.6,8,Não,Smart TV,2024-06
+157,Padrão,43.5,8,Não,Notebook,2024-06
+158,Básico,23.3,6,Não,Smartphone,2024-06
+159,Padrão,44.2,3,Sim,Smartphone,2024-06
+160,Padrão,35.5,6,Não,Smartphone,2024-06
+161,Padrão,50.1,6,Não,Smart TV,2024-06
+162,Premium,69.0,8,Não,Smart TV,2024-06
+163,Básico,7.7,8,Não,Smartphone,2024-06
+164,Padrão,29.5,6,Sim,Smart TV,2024-06
+165,Padrão,27.1,6,Não,Tablet,2024-06
+166,Premium,62.6,7,Não,Smartphone,2024-06
+167,Padrão,44.2,9,Não,Tablet,2024-06
+168,Premium,73.0,8,Não,Notebook,2024-06
+169,Padrão,52.4,6,Não,Smartphone,2024-06
+170,Padrão,47.0,5,Não,Notebook,2024-06
+171,Padrão,43.6,6,Não,Smartphone,2024-06
+172,Básico,30.2,8,Não,Smartphone,2024-06
+173,Premium,75.6,9,Não,Notebook,2024-06
+174,Premium,44.3,8,Sim,Smartphone,2024-06
+175,Padrão,33.2,8,Não,Smartphone,2024-06
+176,Premium,42.9,4,Sim,Smart TV,2024-06
+177,Padrão,76.8,8,Não,Tablet,2024-06
+178,Premium,65.1,7,Não,Smart TV,2024-06
+179,Padrão,33.4,5,Não,Smartphone,2024-06
+180,Premium,37.9,7,Não,Smart TV,2024-06
+181,Premium,45.7,9,Não,Smartphone,2024-06
+182,Premium,54.4,8,Não,Smartphone,2024-06
+183,Básico,42.0,7,Não,Smart TV,2024-06
+184,Premium,78.2,10,Não,Notebook,2024-06
+185,Premium,75.3,7,Não,Smart TV,2024-06
+186,Básico,23.2,5,Sim,Tablet,2024-06
+187,Básico,13.0,4,Não,Smartphone,2024-06
+188,Básico,46.5,1,Não,Smartphone,2024-06
+189,Básico,32.9,9,Não,Notebook,2024-06
+190,Premium,59.9,8,Não,Smartphone,2024-06
+191,Padrão,36.1,7,Não,Notebook,2024-06
+192,Premium,70.9,8,Não,Smartphone,2024-06
+193,Básico,15.4,6,Não,Smart TV,2024-06
+194,Padrão,31.6,8,Não,Notebook,2024-06
+195,Premium,55.4,9,Sim,Tablet,2024-06
+196,Premium,78.2,8,Não,Smartphone,2024-06
+197,Padrão,40.5,7,Não,Smart TV,2024-06
+198,Básico,34.1,6,Não,Smartphone,2024-06
+199,Básico,45.0,5,Não,Smartphone,2024-06
+200,Premium,53.4,7,Não,Smart TV,2024-06
+201,Padrão,29.2,5,Não,Smart TV,2024-06
+202,Premium,41.0,7,Não,Notebook,2024-06
+203,Básico,7.1,9,Não,Smartphone,2024-06
+204,Básico,37.3,7,Não,Tablet,2024-06
+205,Premium,65.8,7,Não,Smartphone,2024-06
+206,Premium,79.4,9,Não,Smart TV,2024-06
+207,Padrão,32.8,8,Não,Smartphone,2024-06
+208,Básico,6.6,6,Não,Smartphone,2024-06
+209,Padrão,27.9,7,Não,Notebook,2024-06
+210,Padrão,50.1,10,Não,Smartphone,2024-06
+211,Padrão,31.7,10,Não,Tablet,2024-06
+212,Premium,50.5,8,Não,Smartphone,2024-06
+213,Premium,46.9,7,Não,Smart TV,2024-06
+214,Básico,29.2,7,Não,Smart TV,2024-06
+215,Padrão,49.5,5,Não,Notebook,2024-06
+216,Premium,59.8,8,Não,Smartphone,2024-06
+217,Premium,44.0,10,Não,Smartphone,2024-06
+218,Premium,46.6,10,Não,Tablet,2024-06
+219,Premium,74.9,7,Não,Smartphone,2024-06
+220,Padrão,43.7,9,Não,Smartphone,2024-06
+221,Básico,19.9,6,Não,Smart TV,2024-06
+222,Premium,44.5,7,Não,Smartphone,2024-06
+223,Premium,62.0,4,Não,Tablet,2024-06
+224,Básico,44.7,6,Não,Notebook,2024-06
+225,Básico,15.8,6,Não,Smart TV,2024-06
+226,Premium,55.8,7,Não,Notebook,2024-06
+227,Básico,25.1,6,Não,Smartphone,2024-06
+228,Básico,9.6,9,Não,Smartphone,2024-06
+229,Básico,39.6,9,Não,Tablet,2024-06
+230,Básico,38.6,4,Não,Tablet,2024-06
+231,Premium,32.1,6,Sim,Smartphone,2024-06
+232,Premium,65.9,6,Não,Smart TV,2024-06
+233,Básico,2.0,5,Não,Smart TV,2024-06
+234,Básico,28.1,4,Sim,Smartphone,2024-06
+235,Premium,74.2,5,Não,Smartphone,2024-06
+236,Padrão,45.4,2,Sim,Smart TV,2024-06
+237,Premium,56.5,6,Não,Smart TV,2024-06
+238,Padrão,56.2,8,Não,Notebook,2024-06
+239,Básico,22.3,8,Não,Smartphone,2024-06
+240,Premium,44.1,10,Não,Smartphone,2024-06
+241,Padrão,40.2,7,Não,Smartphone,2024-06
+242,Padrão,31.4,7,Sim,Smartphone,2024-06
+243,Padrão,34.8,8,Não,Smart TV,2024-06
+244,Padrão,82.9,4,Não,Smartphone,2024-06
+245,Padrão,39.0,8,Não,Tablet,2024-06
+246,Padrão,18.9,9,Sim,Smartphone,2024-06
+247,Premium,62.6,8,Não,Smart TV,2024-06
+248,Premium,45.9,7,Não,Smart TV,2024-06
+249,Premium,84.9,9,Não,Smartphone,2024-06
+250,Básico,4.2,6,Não,Smartphone,2024-06
+251,Básico,30.0,5,Não,Smart TV,2024-06
+252,Básico,32.8,7,Não,Smartphone,2024-06
+253,Premium,66.5,9,Não,Smart TV,2024-06
+254,Padrão,40.7,7,Sim,Smartphone,2024-06
+255,Padrão,20.2,6,Sim,Smart TV,2024-06
+256,Padrão,42.1,6,Não,Smart TV,2024-06
+257,Básico,26.4,5,Sim,Notebook,2024-06
+258,Padrão,60.8,8,Não,Smartphone,2024-06
+259,Básico,41.1,3,Não,Smart TV,2024-06
+260,Padrão,45.3,7,Não,Notebook,2024-06
+261,Básico,38.7,5,Sim,Tablet,2024-06
+262,Premium,40.5,8,Não,Smart TV,2024-06
+263,Básico,19.2,9,Não,Tablet,2024-06
+264,Padrão,57.3,7,Não,Smart TV,2024-06
+265,Padrão,57.8,8,Não,Smart TV,2024-06
+266,Básico,36.6,6,Não,Smart TV,2024-06
+267,Padrão,33.8,4,Não,Smart TV,2024-06
+268,Padrão,39.1,8,Não,Smartphone,2024-06
+269,Premium,53.6,5,Não,Smart TV,2024-06
+270,Padrão,14.3,8,Não,Smartphone,2024-06
+271,Básico,27.3,4,Não,Smart TV,2024-06
+272,Básico,27.5,4,Não,Smart TV,2024-06
+273,Padrão,43.1,7,Não,Smartphone,2024-06
+274,Básico,21.0,5,Não,Smart TV,2024-06
+275,Básico,19.6,6,Sim,Notebook,2024-06
+276,Básico,14.8,7,Sim,Tablet,2024-06
+277,Básico,16.6,8,Não,Tablet,2024-06
+278,Básico,17.1,5,Não,Smart TV,2024-06
+279,Básico,10.1,5,Não,Tablet,2024-06
+280,Premium,70.4,8,Não,Smartphone,2024-06
+281,Básico,42.2,4,Sim,Smart TV,2024-06
+282,Padrão,51.6,7,Não,Tablet,2024-06
+283,Básico,25.3,6,Sim,Smartphone,2024-06
+284,Básico,8.3,7,Não,Notebook,2024-06
+285,Padrão,33.8,8,Não,Smartphone,2024-06
+286,Básico,24.2,5,Sim,Smartphone,2024-06
+287,Premium,55.5,7,Não,Notebook,2024-06
+288,Básico,22.2,6,Não,Smart TV,2024-06
+289,Padrão,33.8,10,Não,Smart TV,2024-06
+290,Premium,64.3,6,Sim,Smart TV,2024-06
+291,Padrão,48.2,8,Não,Smart TV,2024-06
+292,Básico,17.6,7,Não,Smart TV,2024-06
+293,Padrão,63.9,9,Não,Smartphone,2024-06
+294,Básico,36.6,9,Não,Smartphone,2024-06
+295,Padrão,47.7,7,Não,Smartphone,2024-06
+296,Premium,68.7,7,Não,Smartphone,2024-06
+297,Básico,12.9,9,Não,Smartphone,2024-06
+298,Premium,66.0,6,Não,Smart TV,2024-06
+299,Premium,58.1,9,Sim,Smartphone,2024-06
+300,Premium,56.6,7,Não,Smart TV,2024-06
