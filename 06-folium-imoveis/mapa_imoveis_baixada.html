@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cd60c1df732afc7ca687e6abcf57fa8e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cd60c1df732afc7ca687e6abcf57fa8e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cd60c1df732afc7ca687e6abcf57fa8e = L.map(
+                "map_cd60c1df732afc7ca687e6abcf57fa8e",
+                {
+                    center: [-22.736785025907697, -43.50738358758272],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd08567194199577205af01c24dbef04 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cd08567194199577205af01c24dbef04.addTo(map_cd60c1df732afc7ca687e6abcf57fa8e);
+        
+    
+            var marker_cluster_47bd35e5684f7dd83e586b6182bcd37c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_c057ad1d36b9fa27e66b991900b2fc0a = L.marker(
+                [-22.714426310323375, -43.57138840919782],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_eb0ffcbd3ba03ad91841c677a78948c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b5c85411e1510abc60a3f78ac02aacc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c653cae6fb24fb99666d6582a18a89da = $(`<div id="html_c653cae6fb24fb99666d6582a18a89da" style="width: 100.0%; height: 100.0%;">Casa — R$ 613,765.60</div>`)[0];
+                popup_5b5c85411e1510abc60a3f78ac02aacc.setContent(html_c653cae6fb24fb99666d6582a18a89da);
+            
+        
+
+        marker_c057ad1d36b9fa27e66b991900b2fc0a.bindPopup(popup_5b5c85411e1510abc60a3f78ac02aacc)
+        ;
+
+        
+    
+    
+            marker_c057ad1d36b9fa27e66b991900b2fc0a.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c057ad1d36b9fa27e66b991900b2fc0a.setIcon(icon_eb0ffcbd3ba03ad91841c677a78948c7);
+            
+    
+            var marker_38d097ce4b9b5bd3feaea09576118059 = L.marker(
+                [-22.73755359069016, -43.43988185026465],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_2b945aa64132fc3b329535a81d81ead1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e55afc71110d20a490df5d4de867ab8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31e456152c89691b41d1acfe2ed0a6e5 = $(`<div id="html_31e456152c89691b41d1acfe2ed0a6e5" style="width: 100.0%; height: 100.0%;">Terreno — R$ 368,197.75</div>`)[0];
+                popup_e55afc71110d20a490df5d4de867ab8f.setContent(html_31e456152c89691b41d1acfe2ed0a6e5);
+            
+        
+
+        marker_38d097ce4b9b5bd3feaea09576118059.bindPopup(popup_e55afc71110d20a490df5d4de867ab8f)
+        ;
+
+        
+    
+    
+            marker_38d097ce4b9b5bd3feaea09576118059.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38d097ce4b9b5bd3feaea09576118059.setIcon(icon_2b945aa64132fc3b329535a81d81ead1);
+            
+    
+            var marker_d04a64dfec81345d347aecaa881335b5 = L.marker(
+                [-22.73223452200459, -43.4707531961017],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_5745b78ff5a56f9106e954b01540c1da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f52e0abc862f88cb6e2e5ea14cc36140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4857cbe1f84a6cba2c92a74c6ad7b618 = $(`<div id="html_4857cbe1f84a6cba2c92a74c6ad7b618" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 514,047.61</div>`)[0];
+                popup_f52e0abc862f88cb6e2e5ea14cc36140.setContent(html_4857cbe1f84a6cba2c92a74c6ad7b618);
+            
+        
+
+        marker_d04a64dfec81345d347aecaa881335b5.bindPopup(popup_f52e0abc862f88cb6e2e5ea14cc36140)
+        ;
+
+        
+    
+    
+            marker_d04a64dfec81345d347aecaa881335b5.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d04a64dfec81345d347aecaa881335b5.setIcon(icon_5745b78ff5a56f9106e954b01540c1da);
+            
+    
+            var marker_6bb50af188a80a8a1de176b02b9475cf = L.marker(
+                [-22.76691979150169, -43.47880888937601],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_7722a06e3e3a1b7e57b750a997e76b09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb0a1b0423e6fbaf330434d2cea2061b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1a2ded122b94a634d3e290d79bb8ee8 = $(`<div id="html_e1a2ded122b94a634d3e290d79bb8ee8" style="width: 100.0%; height: 100.0%;">Terreno — R$ 532,697.20</div>`)[0];
+                popup_bb0a1b0423e6fbaf330434d2cea2061b.setContent(html_e1a2ded122b94a634d3e290d79bb8ee8);
+            
+        
+
+        marker_6bb50af188a80a8a1de176b02b9475cf.bindPopup(popup_bb0a1b0423e6fbaf330434d2cea2061b)
+        ;
+
+        
+    
+    
+            marker_6bb50af188a80a8a1de176b02b9475cf.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6bb50af188a80a8a1de176b02b9475cf.setIcon(icon_7722a06e3e3a1b7e57b750a997e76b09);
+            
+    
+            var marker_3e5b0f8c44e84445bd648a378b810e8f = L.marker(
+                [-22.731597923018892, -43.57336899433781],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_e9c2e770d74cbc79ab2a92595918d227 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f64f2d520f73af5e4a7d5c79a81582ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8dbd5353e304920b0648bdffcaee3ad = $(`<div id="html_c8dbd5353e304920b0648bdffcaee3ad" style="width: 100.0%; height: 100.0%;">Casa — R$ 279,398.12</div>`)[0];
+                popup_f64f2d520f73af5e4a7d5c79a81582ab.setContent(html_c8dbd5353e304920b0648bdffcaee3ad);
+            
+        
+
+        marker_3e5b0f8c44e84445bd648a378b810e8f.bindPopup(popup_f64f2d520f73af5e4a7d5c79a81582ab)
+        ;
+
+        
+    
+    
+            marker_3e5b0f8c44e84445bd648a378b810e8f.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e5b0f8c44e84445bd648a378b810e8f.setIcon(icon_e9c2e770d74cbc79ab2a92595918d227);
+            
+    
+            var marker_1586d8074d73099089562385e0d4f177 = L.marker(
+                [-22.726882593498324, -43.55136428227247],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_1a77e4e9cd77c0bbf7425a1b75d76746 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_821c0179c08d0434c04b85aac2bd1e28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e821b1cf3c2cf331b3938bed7faa708d = $(`<div id="html_e821b1cf3c2cf331b3938bed7faa708d" style="width: 100.0%; height: 100.0%;">Casa — R$ 828,709.24</div>`)[0];
+                popup_821c0179c08d0434c04b85aac2bd1e28.setContent(html_e821b1cf3c2cf331b3938bed7faa708d);
+            
+        
+
+        marker_1586d8074d73099089562385e0d4f177.bindPopup(popup_821c0179c08d0434c04b85aac2bd1e28)
+        ;
+
+        
+    
+    
+            marker_1586d8074d73099089562385e0d4f177.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1586d8074d73099089562385e0d4f177.setIcon(icon_1a77e4e9cd77c0bbf7425a1b75d76746);
+            
+    
+            var marker_e5e74e87c703778bf4f71eb76c9513e7 = L.marker(
+                [-22.718915688454953, -43.54789742552631],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_6d9fe6c911b0b13ca543f5538352110c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f20c9265d914735120ab4b427658cd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d428e963a70426c23b6fa990e65b961 = $(`<div id="html_2d428e963a70426c23b6fa990e65b961" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 692,592.98</div>`)[0];
+                popup_9f20c9265d914735120ab4b427658cd5.setContent(html_2d428e963a70426c23b6fa990e65b961);
+            
+        
+
+        marker_e5e74e87c703778bf4f71eb76c9513e7.bindPopup(popup_9f20c9265d914735120ab4b427658cd5)
+        ;
+
+        
+    
+    
+            marker_e5e74e87c703778bf4f71eb76c9513e7.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e5e74e87c703778bf4f71eb76c9513e7.setIcon(icon_6d9fe6c911b0b13ca543f5538352110c);
+            
+    
+            var marker_6bd4ccc35be13bdac526132095757647 = L.marker(
+                [-22.73691911404465, -43.48900473026433],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_09520b907c43dd9065374a925ee2c7ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4202b83c83dfa94d3fb1b4b9f3f7849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578a35c4544ec77e79f8b36095c6fb91 = $(`<div id="html_578a35c4544ec77e79f8b36095c6fb91" style="width: 100.0%; height: 100.0%;">Terreno — R$ 807,649.26</div>`)[0];
+                popup_e4202b83c83dfa94d3fb1b4b9f3f7849.setContent(html_578a35c4544ec77e79f8b36095c6fb91);
+            
+        
+
+        marker_6bd4ccc35be13bdac526132095757647.bindPopup(popup_e4202b83c83dfa94d3fb1b4b9f3f7849)
+        ;
+
+        
+    
+    
+            marker_6bd4ccc35be13bdac526132095757647.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6bd4ccc35be13bdac526132095757647.setIcon(icon_09520b907c43dd9065374a925ee2c7ee);
+            
+    
+            var marker_60e65aecc1323fa71d7ab6063ae194c6 = L.marker(
+                [-22.73435616500462, -43.45927441650204],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_5192fe113c4cc9866df72432c88f75e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d8d2c3fb76b8d5b0c85bc078f6c5640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89564d8e21eca064b700ecc17978e1ad = $(`<div id="html_89564d8e21eca064b700ecc17978e1ad" style="width: 100.0%; height: 100.0%;">Terreno — R$ 776,379.15</div>`)[0];
+                popup_4d8d2c3fb76b8d5b0c85bc078f6c5640.setContent(html_89564d8e21eca064b700ecc17978e1ad);
+            
+        
+
+        marker_60e65aecc1323fa71d7ab6063ae194c6.bindPopup(popup_4d8d2c3fb76b8d5b0c85bc078f6c5640)
+        ;
+
+        
+    
+    
+            marker_60e65aecc1323fa71d7ab6063ae194c6.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_60e65aecc1323fa71d7ab6063ae194c6.setIcon(icon_5192fe113c4cc9866df72432c88f75e1);
+            
+    
+            var marker_4ec82aebd8777a269332282683e872c9 = L.marker(
+                [-22.785582872168128, -43.476410253488126],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_fc3f410ea9b372ad7a87ad7bece3860b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6418dc402dff9394001d05329b317b35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372935582fc80cf4be401d14c7fd46c4 = $(`<div id="html_372935582fc80cf4be401d14c7fd46c4" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 568,529.99</div>`)[0];
+                popup_6418dc402dff9394001d05329b317b35.setContent(html_372935582fc80cf4be401d14c7fd46c4);
+            
+        
+
+        marker_4ec82aebd8777a269332282683e872c9.bindPopup(popup_6418dc402dff9394001d05329b317b35)
+        ;
+
+        
+    
+    
+            marker_4ec82aebd8777a269332282683e872c9.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ec82aebd8777a269332282683e872c9.setIcon(icon_fc3f410ea9b372ad7a87ad7bece3860b);
+            
+    
+            var marker_7dc193024a17f71ff86214809865f888 = L.marker(
+                [-22.715570107896898, -43.549193088383625],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_5e1527f25d59ca9a86df1ea7a14ebaf5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03a704f3db7c0eaf08b393970a265c5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dfbf4247d25f8498780bac5c4530d66 = $(`<div id="html_7dfbf4247d25f8498780bac5c4530d66" style="width: 100.0%; height: 100.0%;">Terreno — R$ 795,311.96</div>`)[0];
+                popup_03a704f3db7c0eaf08b393970a265c5b.setContent(html_7dfbf4247d25f8498780bac5c4530d66);
+            
+        
+
+        marker_7dc193024a17f71ff86214809865f888.bindPopup(popup_03a704f3db7c0eaf08b393970a265c5b)
+        ;
+
+        
+    
+    
+            marker_7dc193024a17f71ff86214809865f888.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7dc193024a17f71ff86214809865f888.setIcon(icon_5e1527f25d59ca9a86df1ea7a14ebaf5);
+            
+    
+            var marker_4042459bae2300c29523e3b6de15c6ad = L.marker(
+                [-22.760955339811073, -43.4795380142597],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_d9856a7404a2c37b5f441448d428e2a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33862ab043af24b9dcdba06054ef5161 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88b1c4fe905500d74675be822268d770 = $(`<div id="html_88b1c4fe905500d74675be822268d770" style="width: 100.0%; height: 100.0%;">Terreno — R$ 211,944.75</div>`)[0];
+                popup_33862ab043af24b9dcdba06054ef5161.setContent(html_88b1c4fe905500d74675be822268d770);
+            
+        
+
+        marker_4042459bae2300c29523e3b6de15c6ad.bindPopup(popup_33862ab043af24b9dcdba06054ef5161)
+        ;
+
+        
+    
+    
+            marker_4042459bae2300c29523e3b6de15c6ad.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4042459bae2300c29523e3b6de15c6ad.setIcon(icon_d9856a7404a2c37b5f441448d428e2a5);
+            
+    
+            var marker_834e5a73040c2c540d9de74d0f644e3d = L.marker(
+                [-22.772673531371755, -43.448543735713855],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_1915ba17f6624015227560f1ebcb34ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6d8f67c593cb9fbf87815c116796b3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5676da0a16d6bb592d3136ba5f581d8d = $(`<div id="html_5676da0a16d6bb592d3136ba5f581d8d" style="width: 100.0%; height: 100.0%;">Casa — R$ 287,188.00</div>`)[0];
+                popup_e6d8f67c593cb9fbf87815c116796b3f.setContent(html_5676da0a16d6bb592d3136ba5f581d8d);
+            
+        
+
+        marker_834e5a73040c2c540d9de74d0f644e3d.bindPopup(popup_e6d8f67c593cb9fbf87815c116796b3f)
+        ;
+
+        
+    
+    
+            marker_834e5a73040c2c540d9de74d0f644e3d.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_834e5a73040c2c540d9de74d0f644e3d.setIcon(icon_1915ba17f6624015227560f1ebcb34ab);
+            
+    
+            var marker_3e0677150626efa22d3afc5c95947fa7 = L.marker(
+                [-22.731205385306655, -43.55953058614798],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_005f7dbafc329ebbca5dfc83f13e426b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18875ad66c571d7b3367830f9f24fcbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25090a4193e43f0104eb8fe9f451105f = $(`<div id="html_25090a4193e43f0104eb8fe9f451105f" style="width: 100.0%; height: 100.0%;">Terreno — R$ 181,659.10</div>`)[0];
+                popup_18875ad66c571d7b3367830f9f24fcbb.setContent(html_25090a4193e43f0104eb8fe9f451105f);
+            
+        
+
+        marker_3e0677150626efa22d3afc5c95947fa7.bindPopup(popup_18875ad66c571d7b3367830f9f24fcbb)
+        ;
+
+        
+    
+    
+            marker_3e0677150626efa22d3afc5c95947fa7.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e0677150626efa22d3afc5c95947fa7.setIcon(icon_005f7dbafc329ebbca5dfc83f13e426b);
+            
+    
+            var marker_64405e796f9063cb7fbc92d3fa38ede6 = L.marker(
+                [-22.722495393143856, -43.53753080045053],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_86634eb707ac2a523ba38d64a3e67a22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06b1152939b9574754175bcaccfd8996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_904dad05fb4aa6f2181b1409b6d7bb4a = $(`<div id="html_904dad05fb4aa6f2181b1409b6d7bb4a" style="width: 100.0%; height: 100.0%;">Terreno — R$ 377,731.23</div>`)[0];
+                popup_06b1152939b9574754175bcaccfd8996.setContent(html_904dad05fb4aa6f2181b1409b6d7bb4a);
+            
+        
+
+        marker_64405e796f9063cb7fbc92d3fa38ede6.bindPopup(popup_06b1152939b9574754175bcaccfd8996)
+        ;
+
+        
+    
+    
+            marker_64405e796f9063cb7fbc92d3fa38ede6.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64405e796f9063cb7fbc92d3fa38ede6.setIcon(icon_86634eb707ac2a523ba38d64a3e67a22);
+            
+    
+            var marker_36be6ca15d9f7f228003f7f83c7a50ba = L.marker(
+                [-22.6982836118435, -43.56949916223416],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_22bfe452ef3b340201455ef90f5ef561 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_107ba7b8f8e46ae0331ef8e0523567f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3409e0555d42f45422a55999b6dc7cdc = $(`<div id="html_3409e0555d42f45422a55999b6dc7cdc" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 422,074.10</div>`)[0];
+                popup_107ba7b8f8e46ae0331ef8e0523567f9.setContent(html_3409e0555d42f45422a55999b6dc7cdc);
+            
+        
+
+        marker_36be6ca15d9f7f228003f7f83c7a50ba.bindPopup(popup_107ba7b8f8e46ae0331ef8e0523567f9)
+        ;
+
+        
+    
+    
+            marker_36be6ca15d9f7f228003f7f83c7a50ba.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36be6ca15d9f7f228003f7f83c7a50ba.setIcon(icon_22bfe452ef3b340201455ef90f5ef561);
+            
+    
+            var marker_e7d83c539a00fc221e1404a179226c67 = L.marker(
+                [-22.72307188271917, -43.56135734595799],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_70ea0f00ab5aac943e327cea4187d284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_890c916f16ae301cb685be52446666c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ab216f374b4e16588bfb23c538e4078 = $(`<div id="html_4ab216f374b4e16588bfb23c538e4078" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 339,944.32</div>`)[0];
+                popup_890c916f16ae301cb685be52446666c3.setContent(html_4ab216f374b4e16588bfb23c538e4078);
+            
+        
+
+        marker_e7d83c539a00fc221e1404a179226c67.bindPopup(popup_890c916f16ae301cb685be52446666c3)
+        ;
+
+        
+    
+    
+            marker_e7d83c539a00fc221e1404a179226c67.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e7d83c539a00fc221e1404a179226c67.setIcon(icon_70ea0f00ab5aac943e327cea4187d284);
+            
+    
+            var marker_ed446685f14f5796b9a9552d7941c98d = L.marker(
+                [-22.754872562695397, -43.48319158872557],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_1baf1b0b1e45ed1b1cc88aa980314bdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_496337149bed12fc08f13e89654b1c5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4752bca96d52cfef2cddb73f33c8d2ee = $(`<div id="html_4752bca96d52cfef2cddb73f33c8d2ee" style="width: 100.0%; height: 100.0%;">Casa — R$ 730,116.26</div>`)[0];
+                popup_496337149bed12fc08f13e89654b1c5e.setContent(html_4752bca96d52cfef2cddb73f33c8d2ee);
+            
+        
+
+        marker_ed446685f14f5796b9a9552d7941c98d.bindPopup(popup_496337149bed12fc08f13e89654b1c5e)
+        ;
+
+        
+    
+    
+            marker_ed446685f14f5796b9a9552d7941c98d.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed446685f14f5796b9a9552d7941c98d.setIcon(icon_1baf1b0b1e45ed1b1cc88aa980314bdb);
+            
+    
+            var marker_fc6650dbbb634b5bc4f0192b64eb7d21 = L.marker(
+                [-22.743818862466288, -43.434518382903285],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_bd1e0fcf8d19e0663cbae309ce682f99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7f53c92572204b5da7882dc3303896e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d94dba30f929f459722c18ca442023fb = $(`<div id="html_d94dba30f929f459722c18ca442023fb" style="width: 100.0%; height: 100.0%;">Terreno — R$ 399,727.33</div>`)[0];
+                popup_d7f53c92572204b5da7882dc3303896e.setContent(html_d94dba30f929f459722c18ca442023fb);
+            
+        
+
+        marker_fc6650dbbb634b5bc4f0192b64eb7d21.bindPopup(popup_d7f53c92572204b5da7882dc3303896e)
+        ;
+
+        
+    
+    
+            marker_fc6650dbbb634b5bc4f0192b64eb7d21.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fc6650dbbb634b5bc4f0192b64eb7d21.setIcon(icon_bd1e0fcf8d19e0663cbae309ce682f99);
+            
+    
+            var marker_be6a86373206062d9ec31fd5132df6d0 = L.marker(
+                [-22.721454815904828, -43.53990642586476],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_bdfa8b46ba36a75e82839d84fcee6b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f2316c41af09f230b217859ab2d5bee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e8e5e9333f5a738be84e7eecdb2d399 = $(`<div id="html_4e8e5e9333f5a738be84e7eecdb2d399" style="width: 100.0%; height: 100.0%;">Terreno — R$ 346,654.16</div>`)[0];
+                popup_0f2316c41af09f230b217859ab2d5bee.setContent(html_4e8e5e9333f5a738be84e7eecdb2d399);
+            
+        
+
+        marker_be6a86373206062d9ec31fd5132df6d0.bindPopup(popup_0f2316c41af09f230b217859ab2d5bee)
+        ;
+
+        
+    
+    
+            marker_be6a86373206062d9ec31fd5132df6d0.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_be6a86373206062d9ec31fd5132df6d0.setIcon(icon_bdfa8b46ba36a75e82839d84fcee6b78);
+            
+    
+            var marker_c321050cf124e174c2fe44b4181a6053 = L.marker(
+                [-22.727693075036743, -43.47452350233709],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_a7fd809159ceeef5970f52666746264b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cddf977a18301d46ddd7d2b246c4be2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97b5069ba05f31651d85a7fcca41a947 = $(`<div id="html_97b5069ba05f31651d85a7fcca41a947" style="width: 100.0%; height: 100.0%;">Terreno — R$ 529,887.26</div>`)[0];
+                popup_cddf977a18301d46ddd7d2b246c4be2b.setContent(html_97b5069ba05f31651d85a7fcca41a947);
+            
+        
+
+        marker_c321050cf124e174c2fe44b4181a6053.bindPopup(popup_cddf977a18301d46ddd7d2b246c4be2b)
+        ;
+
+        
+    
+    
+            marker_c321050cf124e174c2fe44b4181a6053.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c321050cf124e174c2fe44b4181a6053.setIcon(icon_a7fd809159ceeef5970f52666746264b);
+            
+    
+            var marker_b8b1fdc6d6b48301521b03940bc6ec5c = L.marker(
+                [-22.69750210820232, -43.54860063815863],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_4a59aa1f782a4d29d14f8ce80da84029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_127aafe8b88d6aeebf58552323331b0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c556471b09ff9e3cb23b3c60c83b970b = $(`<div id="html_c556471b09ff9e3cb23b3c60c83b970b" style="width: 100.0%; height: 100.0%;">Casa — R$ 248,646.96</div>`)[0];
+                popup_127aafe8b88d6aeebf58552323331b0a.setContent(html_c556471b09ff9e3cb23b3c60c83b970b);
+            
+        
+
+        marker_b8b1fdc6d6b48301521b03940bc6ec5c.bindPopup(popup_127aafe8b88d6aeebf58552323331b0a)
+        ;
+
+        
+    
+    
+            marker_b8b1fdc6d6b48301521b03940bc6ec5c.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8b1fdc6d6b48301521b03940bc6ec5c.setIcon(icon_4a59aa1f782a4d29d14f8ce80da84029);
+            
+    
+            var marker_18ace3c42315b7963e4c371a75dbf6ed = L.marker(
+                [-22.725928708166986, -43.54231111199195],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_3c23ade250a7d693959278954f40467c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8a81c580ec763b9d46a1cea0513484b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed35197e25e46af9f231d3e22d03064a = $(`<div id="html_ed35197e25e46af9f231d3e22d03064a" style="width: 100.0%; height: 100.0%;">Casa — R$ 711,537.89</div>`)[0];
+                popup_b8a81c580ec763b9d46a1cea0513484b.setContent(html_ed35197e25e46af9f231d3e22d03064a);
+            
+        
+
+        marker_18ace3c42315b7963e4c371a75dbf6ed.bindPopup(popup_b8a81c580ec763b9d46a1cea0513484b)
+        ;
+
+        
+    
+    
+            marker_18ace3c42315b7963e4c371a75dbf6ed.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18ace3c42315b7963e4c371a75dbf6ed.setIcon(icon_3c23ade250a7d693959278954f40467c);
+            
+    
+            var marker_760a4fe5e42cd80e4b20776087ef25b1 = L.marker(
+                [-22.716110059764304, -43.552791967536024],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_1c3683af1206bf5d77996b3a689e6ddc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5e9c844d3c64fe9478875c73fde4401 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22370e89beba755310bf6b1d37deb1c4 = $(`<div id="html_22370e89beba755310bf6b1d37deb1c4" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 202,185.45</div>`)[0];
+                popup_c5e9c844d3c64fe9478875c73fde4401.setContent(html_22370e89beba755310bf6b1d37deb1c4);
+            
+        
+
+        marker_760a4fe5e42cd80e4b20776087ef25b1.bindPopup(popup_c5e9c844d3c64fe9478875c73fde4401)
+        ;
+
+        
+    
+    
+            marker_760a4fe5e42cd80e4b20776087ef25b1.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_760a4fe5e42cd80e4b20776087ef25b1.setIcon(icon_1c3683af1206bf5d77996b3a689e6ddc);
+            
+    
+            var marker_fa1c9330145e0a11e9b6cc6c8faddffe = L.marker(
+                [-22.767947301410995, -43.45822096529864],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_3ba2d7579d5c87ae4b1585d645bc7300 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3dcd57375dcc06050743e0b65d401c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6971a4be4a4b7b738a0e6fe5c3aa5773 = $(`<div id="html_6971a4be4a4b7b738a0e6fe5c3aa5773" style="width: 100.0%; height: 100.0%;">Casa — R$ 840,820.86</div>`)[0];
+                popup_a3dcd57375dcc06050743e0b65d401c6.setContent(html_6971a4be4a4b7b738a0e6fe5c3aa5773);
+            
+        
+
+        marker_fa1c9330145e0a11e9b6cc6c8faddffe.bindPopup(popup_a3dcd57375dcc06050743e0b65d401c6)
+        ;
+
+        
+    
+    
+            marker_fa1c9330145e0a11e9b6cc6c8faddffe.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fa1c9330145e0a11e9b6cc6c8faddffe.setIcon(icon_3ba2d7579d5c87ae4b1585d645bc7300);
+            
+    
+            var marker_6b474af2180d21165e0631512786d8db = L.marker(
+                [-22.768909570337353, -43.47548886254597],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_67ef48de18be2b6aa040823bc2e290ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4d66c923a6c5021021877705dbe39d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f81b271c98cac4a33cc70e243082364 = $(`<div id="html_7f81b271c98cac4a33cc70e243082364" style="width: 100.0%; height: 100.0%;">Terreno — R$ 690,571.34</div>`)[0];
+                popup_d4d66c923a6c5021021877705dbe39d8.setContent(html_7f81b271c98cac4a33cc70e243082364);
+            
+        
+
+        marker_6b474af2180d21165e0631512786d8db.bindPopup(popup_d4d66c923a6c5021021877705dbe39d8)
+        ;
+
+        
+    
+    
+            marker_6b474af2180d21165e0631512786d8db.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6b474af2180d21165e0631512786d8db.setIcon(icon_67ef48de18be2b6aa040823bc2e290ce);
+            
+    
+            var marker_68611352008ea91bc25d4c6e3aca7906 = L.marker(
+                [-22.73452452210582, -43.57127588928776],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_c9994a34db8f5c6cfd2fe5c57a627a32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea33aeef91a19af8512a5b1d12dd3c7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09340cfd37cab85dc7bd8d189257e87f = $(`<div id="html_09340cfd37cab85dc7bd8d189257e87f" style="width: 100.0%; height: 100.0%;">Terreno — R$ 289,100.98</div>`)[0];
+                popup_ea33aeef91a19af8512a5b1d12dd3c7b.setContent(html_09340cfd37cab85dc7bd8d189257e87f);
+            
+        
+
+        marker_68611352008ea91bc25d4c6e3aca7906.bindPopup(popup_ea33aeef91a19af8512a5b1d12dd3c7b)
+        ;
+
+        
+    
+    
+            marker_68611352008ea91bc25d4c6e3aca7906.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68611352008ea91bc25d4c6e3aca7906.setIcon(icon_c9994a34db8f5c6cfd2fe5c57a627a32);
+            
+    
+            var marker_c10ca6dd1b369e27db7b4363e7853ec0 = L.marker(
+                [-22.749426139961205, -43.4361670545228],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_0be3441b624e1aa06fcd2400226622ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28f756b3babca8888176125806221dce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_892fbde3e550c8b7db7035636f340296 = $(`<div id="html_892fbde3e550c8b7db7035636f340296" style="width: 100.0%; height: 100.0%;">Casa — R$ 153,865.48</div>`)[0];
+                popup_28f756b3babca8888176125806221dce.setContent(html_892fbde3e550c8b7db7035636f340296);
+            
+        
+
+        marker_c10ca6dd1b369e27db7b4363e7853ec0.bindPopup(popup_28f756b3babca8888176125806221dce)
+        ;
+
+        
+    
+    
+            marker_c10ca6dd1b369e27db7b4363e7853ec0.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c10ca6dd1b369e27db7b4363e7853ec0.setIcon(icon_0be3441b624e1aa06fcd2400226622ce);
+            
+    
+            var marker_54b03667f3168f506e77c63b5603865d = L.marker(
+                [-22.75583925860627, -43.4359749165702],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_10cb2a772e944186c850e8ccf8963161 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26fdfbcb7b4beba18586b6798cfc1bbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9ffa11dd4a967557081e1cfef533eee = $(`<div id="html_b9ffa11dd4a967557081e1cfef533eee" style="width: 100.0%; height: 100.0%;">Terreno — R$ 720,823.00</div>`)[0];
+                popup_26fdfbcb7b4beba18586b6798cfc1bbd.setContent(html_b9ffa11dd4a967557081e1cfef533eee);
+            
+        
+
+        marker_54b03667f3168f506e77c63b5603865d.bindPopup(popup_26fdfbcb7b4beba18586b6798cfc1bbd)
+        ;
+
+        
+    
+    
+            marker_54b03667f3168f506e77c63b5603865d.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_54b03667f3168f506e77c63b5603865d.setIcon(icon_10cb2a772e944186c850e8ccf8963161);
+            
+    
+            var marker_50c553a21fdcc1db2f3075626ed0c012 = L.marker(
+                [-22.733940849950002, -43.54967594170907],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_823194ffbcdcdb4dc29d3e2453a8e1c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e8e3847de538d10726ac34d3a65a935 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_371173d6c0422c716b707b47a48488da = $(`<div id="html_371173d6c0422c716b707b47a48488da" style="width: 100.0%; height: 100.0%;">Terreno — R$ 644,800.14</div>`)[0];
+                popup_8e8e3847de538d10726ac34d3a65a935.setContent(html_371173d6c0422c716b707b47a48488da);
+            
+        
+
+        marker_50c553a21fdcc1db2f3075626ed0c012.bindPopup(popup_8e8e3847de538d10726ac34d3a65a935)
+        ;
+
+        
+    
+    
+            marker_50c553a21fdcc1db2f3075626ed0c012.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_50c553a21fdcc1db2f3075626ed0c012.setIcon(icon_823194ffbcdcdb4dc29d3e2453a8e1c3);
+            
+    
+            var marker_9815c51be508fca31696daedae156210 = L.marker(
+                [-22.769281212145803, -43.46965821253708],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_ab564c805a54e347dedda5536c9ba85d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c77e151eaf73611985bf999e2457a7cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58b9ed4b3eb85d37b11a7267c60e831c = $(`<div id="html_58b9ed4b3eb85d37b11a7267c60e831c" style="width: 100.0%; height: 100.0%;">Casa — R$ 660,305.02</div>`)[0];
+                popup_c77e151eaf73611985bf999e2457a7cf.setContent(html_58b9ed4b3eb85d37b11a7267c60e831c);
+            
+        
+
+        marker_9815c51be508fca31696daedae156210.bindPopup(popup_c77e151eaf73611985bf999e2457a7cf)
+        ;
+
+        
+    
+    
+            marker_9815c51be508fca31696daedae156210.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9815c51be508fca31696daedae156210.setIcon(icon_ab564c805a54e347dedda5536c9ba85d);
+            
+    
+            var marker_8739debb87cf0a0568f8017303c0937e = L.marker(
+                [-22.699669364561334, -43.561031617015495],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_3d3b0c870e94147ff528234a242af4b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67bac85b1e5cb238abb7af8263e53ab1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74431bbe9bb6e640df54201b0bad5b7f = $(`<div id="html_74431bbe9bb6e640df54201b0bad5b7f" style="width: 100.0%; height: 100.0%;">Casa — R$ 689,889.24</div>`)[0];
+                popup_67bac85b1e5cb238abb7af8263e53ab1.setContent(html_74431bbe9bb6e640df54201b0bad5b7f);
+            
+        
+
+        marker_8739debb87cf0a0568f8017303c0937e.bindPopup(popup_67bac85b1e5cb238abb7af8263e53ab1)
+        ;
+
+        
+    
+    
+            marker_8739debb87cf0a0568f8017303c0937e.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8739debb87cf0a0568f8017303c0937e.setIcon(icon_3d3b0c870e94147ff528234a242af4b1);
+            
+    
+            var marker_1a447ffa2911517652711f9e21ebd84e = L.marker(
+                [-22.72641752437332, -43.54596177284519],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_5d203848261d812fb126b42c8f9ad65b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31d80678724a8cda0ee6cfc7e911e94d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6012555a0cfe16ca360452f3aa0daa17 = $(`<div id="html_6012555a0cfe16ca360452f3aa0daa17" style="width: 100.0%; height: 100.0%;">Terreno — R$ 201,831.26</div>`)[0];
+                popup_31d80678724a8cda0ee6cfc7e911e94d.setContent(html_6012555a0cfe16ca360452f3aa0daa17);
+            
+        
+
+        marker_1a447ffa2911517652711f9e21ebd84e.bindPopup(popup_31d80678724a8cda0ee6cfc7e911e94d)
+        ;
+
+        
+    
+    
+            marker_1a447ffa2911517652711f9e21ebd84e.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a447ffa2911517652711f9e21ebd84e.setIcon(icon_5d203848261d812fb126b42c8f9ad65b);
+            
+    
+            var marker_1486f627ccedd9e72b90d9ad5c4d4a3b = L.marker(
+                [-22.777306307674525, -43.43617338440285],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_349fc26430ed4abc55bfbd53727d804d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9ab9c2d24e278681f734c42e67e881d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7464962ff040a31dcf9c5dade1ef5cf = $(`<div id="html_a7464962ff040a31dcf9c5dade1ef5cf" style="width: 100.0%; height: 100.0%;">Terreno — R$ 400,926.01</div>`)[0];
+                popup_b9ab9c2d24e278681f734c42e67e881d.setContent(html_a7464962ff040a31dcf9c5dade1ef5cf);
+            
+        
+
+        marker_1486f627ccedd9e72b90d9ad5c4d4a3b.bindPopup(popup_b9ab9c2d24e278681f734c42e67e881d)
+        ;
+
+        
+    
+    
+            marker_1486f627ccedd9e72b90d9ad5c4d4a3b.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1486f627ccedd9e72b90d9ad5c4d4a3b.setIcon(icon_349fc26430ed4abc55bfbd53727d804d);
+            
+    
+            var marker_1b5ae877aa456d9238d303ac00a00e71 = L.marker(
+                [-22.756632834383346, -43.436774814544094],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_b538c49ac9a9d23a7283e76c4aeadcab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e77a6fc21bc78b59f5aae8e30fe0e52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcfc4094ad1e214043679c84e05e8908 = $(`<div id="html_fcfc4094ad1e214043679c84e05e8908" style="width: 100.0%; height: 100.0%;">Terreno — R$ 231,108.34</div>`)[0];
+                popup_6e77a6fc21bc78b59f5aae8e30fe0e52.setContent(html_fcfc4094ad1e214043679c84e05e8908);
+            
+        
+
+        marker_1b5ae877aa456d9238d303ac00a00e71.bindPopup(popup_6e77a6fc21bc78b59f5aae8e30fe0e52)
+        ;
+
+        
+    
+    
+            marker_1b5ae877aa456d9238d303ac00a00e71.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b5ae877aa456d9238d303ac00a00e71.setIcon(icon_b538c49ac9a9d23a7283e76c4aeadcab);
+            
+    
+            var marker_8e1f6ace4fde1a03e7702c9906043f8b = L.marker(
+                [-22.726860972753364, -43.44320746724854],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_a3bf77cf6bfa98abce4e7d1bd456349f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1dfe7fd7195179c9d82151be4c6aa930 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4aaf957d0e39f3ae5cceaf2c4d52f30 = $(`<div id="html_a4aaf957d0e39f3ae5cceaf2c4d52f30" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 754,172.40</div>`)[0];
+                popup_1dfe7fd7195179c9d82151be4c6aa930.setContent(html_a4aaf957d0e39f3ae5cceaf2c4d52f30);
+            
+        
+
+        marker_8e1f6ace4fde1a03e7702c9906043f8b.bindPopup(popup_1dfe7fd7195179c9d82151be4c6aa930)
+        ;
+
+        
+    
+    
+            marker_8e1f6ace4fde1a03e7702c9906043f8b.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8e1f6ace4fde1a03e7702c9906043f8b.setIcon(icon_a3bf77cf6bfa98abce4e7d1bd456349f);
+            
+    
+            var marker_2c7c7bedc952aa4a5e7ac001d7f9de0d = L.marker(
+                [-22.72631778913954, -43.54931873415383],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_28b7ba92e25331114a14d0a6f14b2cb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd2730dcdd4b8521caf3d64559b5c17a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98d8a395f5d82b9a8dcf49c73b505c98 = $(`<div id="html_98d8a395f5d82b9a8dcf49c73b505c98" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 586,308.69</div>`)[0];
+                popup_cd2730dcdd4b8521caf3d64559b5c17a.setContent(html_98d8a395f5d82b9a8dcf49c73b505c98);
+            
+        
+
+        marker_2c7c7bedc952aa4a5e7ac001d7f9de0d.bindPopup(popup_cd2730dcdd4b8521caf3d64559b5c17a)
+        ;
+
+        
+    
+    
+            marker_2c7c7bedc952aa4a5e7ac001d7f9de0d.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c7c7bedc952aa4a5e7ac001d7f9de0d.setIcon(icon_28b7ba92e25331114a14d0a6f14b2cb5);
+            
+    
+            var marker_b98818b7a8d9ffbeb97871299cdc8e0c = L.marker(
+                [-22.709114578103765, -43.571634401400196],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_957ad16bb3d556f5e3ef4ed5e7bc35ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09fdd732187cc3001544680675c84356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d2c80108f7a85f463cca1bdb0125bba = $(`<div id="html_3d2c80108f7a85f463cca1bdb0125bba" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 381,628.62</div>`)[0];
+                popup_09fdd732187cc3001544680675c84356.setContent(html_3d2c80108f7a85f463cca1bdb0125bba);
+            
+        
+
+        marker_b98818b7a8d9ffbeb97871299cdc8e0c.bindPopup(popup_09fdd732187cc3001544680675c84356)
+        ;
+
+        
+    
+    
+            marker_b98818b7a8d9ffbeb97871299cdc8e0c.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b98818b7a8d9ffbeb97871299cdc8e0c.setIcon(icon_957ad16bb3d556f5e3ef4ed5e7bc35ed);
+            
+    
+            var marker_b04431f1a0483f4304805a44f87e4e5b = L.marker(
+                [-22.740302823080278, -43.48030227715432],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_ecfa3b782061c4a307ccd1cd3524d094 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfbea57c69d30f4451fe3a8827597a43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc1806846aacf14921834f7a4bc4836d = $(`<div id="html_fc1806846aacf14921834f7a4bc4836d" style="width: 100.0%; height: 100.0%;">Casa — R$ 194,490.85</div>`)[0];
+                popup_dfbea57c69d30f4451fe3a8827597a43.setContent(html_fc1806846aacf14921834f7a4bc4836d);
+            
+        
+
+        marker_b04431f1a0483f4304805a44f87e4e5b.bindPopup(popup_dfbea57c69d30f4451fe3a8827597a43)
+        ;
+
+        
+    
+    
+            marker_b04431f1a0483f4304805a44f87e4e5b.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b04431f1a0483f4304805a44f87e4e5b.setIcon(icon_ecfa3b782061c4a307ccd1cd3524d094);
+            
+    
+            var marker_b0c005b55cc1d460d1f5f750c5678642 = L.marker(
+                [-22.771741747360455, -43.436086748688375],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_3aa1276d1d2f03ddb1f8ee7d50baa584 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7629390b6e7d9bf14245f55a49d6b801 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67e801588e4ef49f93e45c84ea542a26 = $(`<div id="html_67e801588e4ef49f93e45c84ea542a26" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 367,687.63</div>`)[0];
+                popup_7629390b6e7d9bf14245f55a49d6b801.setContent(html_67e801588e4ef49f93e45c84ea542a26);
+            
+        
+
+        marker_b0c005b55cc1d460d1f5f750c5678642.bindPopup(popup_7629390b6e7d9bf14245f55a49d6b801)
+        ;
+
+        
+    
+    
+            marker_b0c005b55cc1d460d1f5f750c5678642.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b0c005b55cc1d460d1f5f750c5678642.setIcon(icon_3aa1276d1d2f03ddb1f8ee7d50baa584);
+            
+    
+            var marker_0a5672946f1d3b73c0c802603549faa3 = L.marker(
+                [-22.706871346055525, -43.55074283761362],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_7f322335b726158199fac19c626bda81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1888e854bf190f639424f0a9e5279aaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9ea9a218d6dbadc15731bdeff06ca4a = $(`<div id="html_b9ea9a218d6dbadc15731bdeff06ca4a" style="width: 100.0%; height: 100.0%;">Casa — R$ 377,628.33</div>`)[0];
+                popup_1888e854bf190f639424f0a9e5279aaa.setContent(html_b9ea9a218d6dbadc15731bdeff06ca4a);
+            
+        
+
+        marker_0a5672946f1d3b73c0c802603549faa3.bindPopup(popup_1888e854bf190f639424f0a9e5279aaa)
+        ;
+
+        
+    
+    
+            marker_0a5672946f1d3b73c0c802603549faa3.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a5672946f1d3b73c0c802603549faa3.setIcon(icon_7f322335b726158199fac19c626bda81);
+            
+    
+            var marker_39b57715a6d53a9f62e114d8ffa693a1 = L.marker(
+                [-22.763933012036844, -43.489448176903004],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_bac9b21b12c97f7274806513b9717c7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be2c2aeb413309f7cb4737d0ac092690 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3b9a564df53672b7928a48976c521bc = $(`<div id="html_d3b9a564df53672b7928a48976c521bc" style="width: 100.0%; height: 100.0%;">Casa — R$ 660,724.32</div>`)[0];
+                popup_be2c2aeb413309f7cb4737d0ac092690.setContent(html_d3b9a564df53672b7928a48976c521bc);
+            
+        
+
+        marker_39b57715a6d53a9f62e114d8ffa693a1.bindPopup(popup_be2c2aeb413309f7cb4737d0ac092690)
+        ;
+
+        
+    
+    
+            marker_39b57715a6d53a9f62e114d8ffa693a1.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_39b57715a6d53a9f62e114d8ffa693a1.setIcon(icon_bac9b21b12c97f7274806513b9717c7c);
+            
+    
+            var marker_507cdae80c153ba9e2c55743aa06cef3 = L.marker(
+                [-22.71070776677626, -43.570941138285356],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_182eb60837b123713cd6c54d88182eff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_692d025cd2d8f30ff07ed126d725a9bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4555692d16c2330e89e3aa4329c7f68e = $(`<div id="html_4555692d16c2330e89e3aa4329c7f68e" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 596,290.23</div>`)[0];
+                popup_692d025cd2d8f30ff07ed126d725a9bc.setContent(html_4555692d16c2330e89e3aa4329c7f68e);
+            
+        
+
+        marker_507cdae80c153ba9e2c55743aa06cef3.bindPopup(popup_692d025cd2d8f30ff07ed126d725a9bc)
+        ;
+
+        
+    
+    
+            marker_507cdae80c153ba9e2c55743aa06cef3.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_507cdae80c153ba9e2c55743aa06cef3.setIcon(icon_182eb60837b123713cd6c54d88182eff);
+            
+    
+            var marker_8f211f63d67659f5b66dc9bce2c44ccb = L.marker(
+                [-22.747988217354347, -43.45018989385352],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_e3330a027dd169d1c3a88752059db1e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a64072c94935bf2b44192851c9f4a7a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38f05d6aa27fcad716c028edfd3043e1 = $(`<div id="html_38f05d6aa27fcad716c028edfd3043e1" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 771,048.92</div>`)[0];
+                popup_a64072c94935bf2b44192851c9f4a7a1.setContent(html_38f05d6aa27fcad716c028edfd3043e1);
+            
+        
+
+        marker_8f211f63d67659f5b66dc9bce2c44ccb.bindPopup(popup_a64072c94935bf2b44192851c9f4a7a1)
+        ;
+
+        
+    
+    
+            marker_8f211f63d67659f5b66dc9bce2c44ccb.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8f211f63d67659f5b66dc9bce2c44ccb.setIcon(icon_e3330a027dd169d1c3a88752059db1e5);
+            
+    
+            var marker_5f8c8dfe86075973834a9952bca33bbe = L.marker(
+                [-22.71456901263701, -43.57479753664615],
+                {
+}
+            ).addTo(marker_cluster_47bd35e5684f7dd83e586b6182bcd37c);
+        
+    
+            var icon_746b20fd040c355abec4dcb1594420f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_099c58bc05a63b878b972c4898272ffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c884dc894eb91bddb3c74109440b839f = $(`<div id="html_c884dc894eb91bddb3c74109440b839f" style="width: 100.0%; height: 100.0%;">Apartamento — R$ 480,550.45</div>`)[0];
+                popup_099c58bc05a63b878b972c4898272ffa.setContent(html_c884dc894eb91bddb3c74109440b839f);
+            
+        
+
+        marker_5f8c8dfe86075973834a9952bca33bbe.bindPopup(popup_099c58bc05a63b878b972c4898272ffa)
+        ;
+
+        
+    
+    
+            marker_5f8c8dfe86075973834a9952bca33bbe.bindTooltip(
+                `<div>
+                     Clique para detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f8c8dfe86075973834a9952bca33bbe.setIcon(icon_746b20fd040c355abec4dcb1594420f5);
+            
+    
+            marker_cluster_47bd35e5684f7dd83e586b6182bcd37c.addTo(map_cd60c1df732afc7ca687e6abcf57fa8e);
+        
+</script>
+</html>
